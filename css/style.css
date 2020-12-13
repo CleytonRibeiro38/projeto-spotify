@@ -1,0 +1,36 @@
+/*==========RESET==========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(../imagens/capa.png), url(../imagens/ruido.png), linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+}
+/*==========HEADER==========*/
+.header01 {width: 100%; display: flex; justify-content: space-between; align-items: center; 
+background-color: rgba(0, 0, 0, 0.6); padding: 20px 128px; position: fixed; top: 0; left: 0;}
+.header01 img {width: 142px;}
+.header01 .navegacao .menu {display: flex;}
+.menu li a {color: white;}
+.menu li a:hover {color: #9bf0e1;}
+.menu li + li {margin-left: 15px;}
+.menu li:nth-child(3) {border-right: 1px solid white; padding-right: 20px;}
+.menu li:nth-child(4) {padding-left: 5px;}
+.header02 h1 {margin: 208px 0 38px 0; color: white; font-size: 6em; font-weight: 900; text-align: center; 
+letter-spacing: -5px;}
+.buttons {text-align: center; margin-bottom: 220px;}
+.header02 .button01 {width: 330px; color: white; text-transform: uppercase; font-size: 1.3em; line-height: 2.5;
+background-color: #7c25f8; border: none; border-radius: 50px;}
+.header02 .button02 {width: 300px; color: white; text-transform: uppercase; font-size: 1.3em; line-height: 2.5; background-color: transparent; border: 2px solid white; border-radius: 50px;}
+.header02 .button01:hover {cursor: pointer; background-color: #6610f2; transition: background-color 0.4s;}
+.header02 .button02:hover {cursor: pointer; color: black; background-color: white; transition: background-color 0.4s, color 0.4s;}
+
+
+
+
+
