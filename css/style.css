@@ -44,6 +44,15 @@ background-color: #7c25f8; border: none; border-radius: 50px;}
 .content02b {display: flex; transform: rotate(30deg);}
 .content02b img {width: 315px;}
 .content02b img + img {margin-left: 30px;}
+/*==========FOOTER==========*/
+.footer {display: flex; justify-content: space-between; background-color: black; padding: 50px 128px 20px; 
+position: relative; z-index: 1030;}
+.footer h4 {color: #919496; font-size: 0.8em; text-transform: uppercase;}
+.footer ul li {margin-top: 10px;}
+.footer ul li a {color: white; font-size: 0.8em; margin-left: 5px;}
+.footer ul li a:hover {color: #9bf0e1;}
+.footer01 img {width: 142px;}
+.footer05 a + a {margin-left: 5px;}
 
 
 
