@@ -29,6 +29,15 @@ background-color: #7c25f8; border: none; border-radius: 50px;}
 .header02 .button02 {width: 300px; color: white; text-transform: uppercase; font-size: 1.3em; line-height: 2.5; background-color: transparent; border: 2px solid white; border-radius: 50px;}
 .header02 .button01:hover {cursor: pointer; background-color: #6610f2; transition: background-color 0.4s;}
 .header02 .button02:hover {cursor: pointer; color: black; background-color: white; transition: background-color 0.4s, color 0.4s;}
+@media screen and (max-width: 400px){
+    .menu li a {font-size: 0.75em;}
+}
+@media screen and (max-width: 600px){
+    .header01 {flex-direction: column; padding: 10px 5px;}
+    .header01 img {margin-bottom: 20px;}
+    .header02 h1 {font-size: 5em;}
+    .header02 .button01 {width: 320px; margin-bottom: 20px;}
+}
 /*==========CONTENT==========*/
 .content01 {display: flex; background-color: white; padding: 30px 120px 10px;}
 .content01a img {width: 255px; margin-right: 25px; margin-bottom: 15px;}
@@ -44,6 +53,16 @@ background-color: #7c25f8; border: none; border-radius: 50px;}
 .content02b {display: flex; transform: rotate(30deg);}
 .content02b img {width: 315px;}
 .content02b img + img {margin-left: 30px;}
+@media screen and (max-width: 600px){
+    .content01 {flex-direction: column; padding: 30px 0 10px;}
+    .content01a img {width: 100%;}
+    .content01b {margin-left: 0; padding: 0 5px;}
+    .content02 {flex-direction: column; padding: 10px 5px;}
+    .content02a {width: 100%;}
+    .content02b {flex-direction: column; margin-top: 10px; transform: none;}
+    .content02b img {width: 100%;}
+    .content02b img + img {margin-left: 0;}
+}
 /*==========FOOTER==========*/
 .footer {display: flex; justify-content: space-between; background-color: black; padding: 50px 128px 20px; 
 position: relative; z-index: 1030;}
@@ -53,6 +72,10 @@ position: relative; z-index: 1030;}
 .footer ul li a:hover {color: #9bf0e1;}
 .footer01 img {width: 142px;}
 .footer05 a + a {margin-left: 5px;}
+@media screen and (max-width: 600px){
+    .footer {display: block; width: 100vw; flex-direction: column; text-align: center; padding: 10px 5px;}
+    .footer div + div {margin-top: 30px;}
+}
 
 
 
