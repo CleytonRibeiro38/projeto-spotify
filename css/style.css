@@ -86,6 +86,14 @@ background-color: #7c25f8; border: none; border-radius: 50px;}
     .content02 {display: flex; padding: 30px 40px;}
     .content02b img {width: 180px; height: 350px; margin-top: 0;}
 }
+@media screen and (min-width: 1001px) and (max-width: 1350px){
+    .content01 {display: flex; padding: 30px 40px;}
+    .content01a {width: 100%;}
+    .content01a img {width: 35%;}
+    .content01b {margin-left: -60px; width: 100%;}
+    .content02 {display: flex; padding: 30px 40px;}
+    .content02b img {margin-top: 50px;}
+}
 /*==========FOOTER==========*/
 .footer {display: flex; justify-content: space-between; background-color: black; padding: 50px 128px 20px; 
 position: relative; z-index: 1030;}
