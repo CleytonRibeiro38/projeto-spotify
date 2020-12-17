@@ -64,18 +64,27 @@ background-color: #7c25f8; border: none; border-radius: 50px;}
     .content01b {margin-left: 0; padding: 0 5px;}
     .content02 {flex-direction: column; padding: 10px 5px;}
     .content02a {width: 100%;}
-    .content02b {flex-direction: column; margin-top: 10px; transform: none;}
-    .content02b img {width: 100%;}
+    .content02b {flex-direction: column; margin-top: 50px;}
+    .content02b img {max-width: 100%;}
     .content02b img + img {margin-left: 0;}
 }
 @media screen and (min-width: 601px) and (max-width: 780px){
-    .content01 {flex-direction: column; padding: 30px 120px 10px;}
+    .content01 {flex-direction: column; padding: 20px 50px 50px;}
     .content01a img {width: 100%;}
     .content01b {margin-left: 0;}
-    .content02 {flex-direction: column; padding: 30px 120px 10px;}
-    .content02a {width: 50%;}
-    .content02b {flex-direction: column; margin-top: 80px;}
+    .content02 {flex-direction: column; padding: 20px 50px 50px;}
+    .content02a {width: 100%;}
+    .content02b {flex-direction: column; margin-top: 50px; margin-left: 150px;}
+    .content02b img {max-width: 100%;}
     .content02b img + img {margin-left: 0;}
+}
+@media screen and (min-width: 781px) and (max-width: 1000px){
+    .content01 {display: flex; padding: 30px 40px;}
+    .content01a {width: 100%;}
+    .content01a img {width: 35%;}
+    .content01b {margin-left: -60px; width: 100%;}
+    .content02 {display: flex; padding: 30px 40px;}
+    .content02b img {width: 180px; height: 350px; margin-top: 0;}
 }
 /*==========FOOTER==========*/
 .footer {display: flex; justify-content: space-between; background-color: black; padding: 50px 128px 20px; 
@@ -86,11 +95,11 @@ position: relative; z-index: 1030;}
 .footer ul li a:hover {color: #9bf0e1;}
 .footer01 img {width: 142px;}
 .footer05 a + a {margin-left: 5px;}
-@media screen and (max-width: 600px){
+@media screen and (max-width: 650px){
     .footer {display: block; width: 100vw; flex-direction: column; text-align: center; padding: 10px 5px;}
     .footer div + div {margin-top: 30px;}
 }
-@media screen and (min-width: 601px) and (max-width: 1000px){
+@media screen and (min-width: 651px) and (max-width: 1000px){
     .footer {padding: 10px;}
 }
 
